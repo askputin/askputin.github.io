@@ -1,0 +1,31 @@
+* {
+    margin: 2px 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 720px;
+    padding: 0 15px;
+    margin: auto;
+
+    h1 {
+        text-align: center;
+    }
+    p {
+        text-align: justify;
+        text-align-last: center;
+    }
+    .form {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 300px;
+        margin: 0 auto;
+        
+        * {
+            width: 100%;
+        }
+    }
+}
